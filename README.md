@@ -3,12 +3,15 @@
 This is a GitHub repository for COMP 320, containing the following:
 
   - Projects in Haskell
-  - Projects in other languages like Scheme and LISP 
+  - Projects in other languages like Scheme and LISP
   - Other relevant files
 
 ### Newest Uploads
 
-  - This file (2 April 2018)
+| File(s) | Date |
+| ------ | ------ |
+| Notes on Chapter 1 | 2 April 2018 |
+| Readme | 2 April 2018 |
 
 ### Installation Instructions (Ubuntu)
 
