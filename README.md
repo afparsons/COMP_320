@@ -5,6 +5,13 @@ This is a GitHub repository for COMP 320, containing the following:
   - Projects in Haskell
   - Projects in other languages like Scheme and LISP
   - Other relevant files
+  
+### Navigation
+
+| File |
+| ------|
+| [Chapter 1 Notes](/Notes/Chapter_1_Sebesta.md) |
+
 
 ### Newest Uploads
 
