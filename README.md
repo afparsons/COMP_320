@@ -10,16 +10,15 @@ This is a GitHub repository for COMP 320, containing the following:
 
   - This file (2 April 2018)
 
-### Markdown Basics
+### Installation Instructions (Ubuntu)
 
-Here's how to display a table in Markdown.
-
-| Col 1 | Col 2 |
+| Software | Links |
 | ------ | ------ |
-| Row 1 | [plugins/dropbox/README.md][PlDb] |
-| Row 2 | [plugins/github/README.md][PlGh] |
+| Haskell Stack | [official installation instructions](https://docs.haskellstack.org/en/stable/install_and_upgrade/#ubuntu) |
+| Anaconda | [Documentation > Installing on Linux](https://docs.anaconda.com/anaconda/install/linux) |
+| Jupyter | [Directions](https://jupyter.org/install) |
 
-Here's how to display a snipet of code in Markdown
+FYI, here's how to display a snipet of code in Markdown
 
 ```sh
 $ this is fake code
