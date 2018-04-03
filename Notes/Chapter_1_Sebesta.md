@@ -1,7 +1,7 @@
 # CHAPTER 1: PRELIMINARIES
-
-Short summary goes here.
-
+****
+https://www.youtube.com/watch?v=nV1HAbGvQMA
+****
 ## 1.1 - Reasonsfor Studying Concepts of Programming Languages
 
 Studying programming language concepts improves or increases:
@@ -78,17 +78,68 @@ Studying programming language concepts improves or increases:
   - cost of poor reliability.
   - cost of maintenance. Dependant on reliability. 2x-4x cost of development.
 
-Other criteria include: portability, generality, well-definedness 
-
-
-
+Other criteria include: portability, generality, well-definedness.
 
 ## 1.4 - Influences on Language Design
 
+**Computer Architecture:** imperative languages are designed around von Neumann architecture.
+
+- Central features:
+  - *variables* model memory cells.
+  - *assignment statements*
+  - *iteration*
+- functional languages are different but could potentially be superior if executed on non-von Neumann architecture
+
+**Programming Design Methodologies:**
+
+- lol wut. lots of words I don't yet understand.
+
 ## 1.5 - Language Categories
+
+**imperative**
+
+**functional**
+
+**logic**
+
+**object-oriented**
 
 ## 1.6 - Language Design Trade-Offs
 
+**Reliability vs. Cost of Execution**
+
+**Writability vs. Readability**
+
 ## 1.7 - Implementation Methods
 
+Primary components of a computer:
+
+- *Internal memory:* stores programs and data
+- *Processor:* collection of circuits that provices a realization of a set of primitive operations (arithmetic and logic operations)
+
+Theoretically, a computer could be designed and built with a particular high-level language as its machine language, but it would be *very* complex and expensive.
+It would also be highly inflexible.
+
+**Compilation:** programs are translated into machine language, which can be executed directly on the computer.
+
+- *Advantage:* very fast program execution once the translation process is complete.
+
+- *Disadvantage:* must translate the high-level code (time consuming). Subject to the von Neumann bottleneck.
+
+**Pure Interpretation:** programs are interpreted by an interpreter with no translation whatsoever. The interpreter acts as a software simulation of a machine whose fetchexecute cycle deals with high-level language statements rather than machine instructions.
+
+- *Advantage:* easy implementation of many source level debugging operations, because all run-time errors refer to source-level units.
+
+- *Disadvantages:* 10x-100x slower than compiled languages because of statement decoding. More space required.
+
+**Hybrid Implementation Systems:** translate high-level language programs to an intermediate language designed to allow for easy interpretation. This method is faster than pure interpretation because the source language statements are decoded only once.
+
+Just-in-Time compilation
+
+**Preprocessors:**
+
+:P
+
 ## 1.8 - Programming Environments
+
+:P
