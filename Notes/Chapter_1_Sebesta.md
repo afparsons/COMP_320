@@ -39,6 +39,9 @@ Studying programming language concepts improves or increases:
     - pros and cons
 2. Orthogonality
   - small set of primitive constructs can be combined in a small number of ways to build the control and data structures of the language
+  - *from class:* related to operator overloading.
+
+
 3. Data Types
   - give clarity
   - Ex: ```timeOut = 1``` vs. ```timeOut = true``` <-- the latter is clearer
@@ -143,3 +146,64 @@ Just-in-Time compilation
 ## 1.8 - Programming Environments
 
 :P
+
+## Notes from Class
+
+### 4 April 2018
+
+- Machine Language (binary)
+- Assembly Language (basic operations like ADD)
+  - over time, developed macros/pseudo instructions
+- Fortran
+  - similar to Assembly in that it is:
+    - imperative
+    - von Neumann
+    - state driven
+- Slow evolution to higher abstraction
+  - Algol (1960)
+  - Pascal (1970)
+  - C (1972)
+  - Simula (1969)
+  - Smalltalk (1980)
+
+Object Oriented
+
+Event Driven
+- set up code to respond to events
+- write the event responses
+- no "linear" control flow
+- control-flow is riven by events (user or system events)
+
+Functional Language (LISP 1959)
+- based on mathematical functions and lambda calculus
+- Key ideas
+  - functions as 1st class entities
+  - **no state**
+  - atoms and lists
+  - functions and data have the same form (how?)
+  - later developed into Scheme
+- ML and Haskell
+
+Declarative Languagess
+
+Scripting Languages
+
+Visual Languages
+
+****
+
+Terms to review (gosh my brain is dusty)
+- plymorphism
+- message-passing
+- dynamic-binding
+- single-entry/single-exit
+- data abstraction
+- inheritence
+- 1st class entities
+
+
+| | Assembly |
+|-|-|
+|1| Put data 1 in ACC |
+|2| Add data 2 to ACC |
+|3| Move ACC to data 3|
