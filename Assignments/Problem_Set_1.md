@@ -145,8 +145,20 @@ Java also features extensive type checkking and exception handling unlike the fi
 
 5. *Answer questions 1, 6, and 7 from the Problem Set at the end of Chapter 2. (3 pts each, except #6, which is worth 2 pts)*
 
-\#1. 
+\#1. *What features of Plankalkül do you think would have had the greatest influence on Fortran 0 if the Fortran designers had been familiar with Plankalkül?*
 
-\#6.
+Had the designers of Fortran been able to refer to Plankalkül's design, I think they would have tried to implement the following features:
 
-\#7.
+- data typing: that Fortran initially didn't have data typing seems quite limiting, though it must have been a deliberate decision given the constraints. However, Zuse's Z4 was also faced with constraints yet Plankalkül somehow had data types.
+
+- Zuse's programs, specifically for syntax checking: though the programs aren't language features, analyzing the algorithms may have proven useful for language design
+
+\#6. *Make an educated guess as to the most common syntax error in Lisp programs.*
+
+One too many, one too few, or incorrectly placed parentheses.
+
+\#7. *Lisp began as a pure functional language but gradually acquired more and more imperative features. Why?*
+
+The development of Common Lisp merged the various dialects of Lisp, of which several had developed imperative features.
+
+(BAD ANSWER)
