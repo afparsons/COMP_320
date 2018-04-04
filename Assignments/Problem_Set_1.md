@@ -1,8 +1,6 @@
-- Andrew Parsons
-
-- COMP 320 - A. Brady
-
-- 3 April 2018
+| | | | |
+|-|-|-|-|
+| Andrew Parsons | COMP 320 | A. Brady | 3 April 2018 |
 
 # PROBLEM SET 1
 
