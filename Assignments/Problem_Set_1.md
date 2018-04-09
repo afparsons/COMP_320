@@ -20,6 +20,7 @@ Chapters 1 and 2. Due Monday, 9 April 2018.
 
   Ignoring this gentle nod to predecessors and relatives, Java's ending brace adds another character, and depending on convention, another line to code. This makes the code challenging to read because exactly which compound statement the right brace ends is obscured. Consider the following code snipet:
 
+
   ```
   // some Java here
           }
@@ -35,6 +36,7 @@ Chapters 1 and 2. Due Monday, 9 April 2018.
 
   A simple trick for deeply nested code blocks is using comments to denote for which each ending brace stands.
 
+
   ```
   // some Java here
           } // end if-statement
@@ -44,6 +46,7 @@ Chapters 1 and 2. Due Monday, 9 April 2018.
     } // end while-loop
   }
   ```
+
   This however is laborious and just adds text to a code block, decreasing legibility. A more elegant solution is noted on page 12, where Fortran 95 and Ada use ```end if``` and ```end loop```. Such an implementation would look something like the following:
 
   ```
@@ -54,6 +57,7 @@ Chapters 1 and 2. Due Monday, 9 April 2018.
       END WHILE
     END
   ```
+
   This is clearly more legibile, however rather laborious to write. Additionally, if Java were to implement the above, the compiler would need to reserve quite a few more words.
 
 2. *Answer Problem Set question 10 from the end of Chapter 1. (4 pts)*
@@ -103,6 +107,7 @@ The feel most comfortable with Java.
   count++
   ++count
   ```
+
   - Java's operators are fairly readable considering there is only one overloaded operator (that I know of), ```+```: it handles all numbers (floats, ints) and string concatenation. This forces writers to use many statements to preform complex arithmetic operations, but this is easier for readers to understand, since they can follow steps.
 
   - There are a limited number of control statements.
@@ -121,6 +126,7 @@ The feel most comfortable with Java.
 **Writability**
 
 Java requires some syntactical overhead. Programs open with
+
 ```
 public class ClassName {
 
@@ -129,6 +135,7 @@ public class ClassName {
   }
 }
 ```
+
 before anything else is written. This is an oversimplification, but enough to mention.
 
 Because Java has a finite number of building blocks, programmers must often build their own constructs to achieve a goal. This gives programmers great flexibility while keeping the language relatively simple.
@@ -149,7 +156,9 @@ Had the designers of Fortran been able to refer to Plankalkül's design, I think
 
 - data typing: that Fortran initially didn't have data typing seems quite limiting, though it must have been a deliberate decision given the constraints. However, Zuse's Z4 was also faced with constraints yet Plankalkül somehow had data types.
 
-- Zuse's programs, specifically for syntax checking: though the programs aren't language features, analyzing the algorithms may have proven useful for language design
+- records/structs: the original versions of Fortran didn't have the records that Zuse included with Plankalkül. These were added in later versions of Fortran.
+
+- Zuse's programs, specifically for syntax checking: though the programs aren't language features, analyzing the algorithms may have proven useful for language design.
 
 \#6. *Make an educated guess as to the most common syntax error in Lisp programs.*
 
@@ -157,6 +166,7 @@ One too many, one too few, or incorrectly placed parentheses.
 
 \#7. *Lisp began as a pure functional language but gradually acquired more and more imperative features. Why?*
 
-The development of Common Lisp merged the various dialects of Lisp, of which several had developed imperative features.
+An inherent feature of functional languages is that they have no state.
+Though Lisp is functional in that it is organized around expressions instead of statements, some functions have side effects like storing data in variables or array positions, meaning Lisp modifies a state. These features were necessary as they allowed for computation and the output of that computation.
 
-(BAD ANSWER)
+The development of Common Lisp merged the various dialects of Lisp, of which several had developed additional imperative features.
