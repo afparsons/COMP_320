@@ -207,3 +207,18 @@ Terms to review (gosh my brain is dusty)
 |1| Put data 1 in ACC |
 |2| Add data 2 to ACC |
 |3| Move ACC to data 3|
+
+### 6 April 2018
+
+Scheme: Interpreted language
+- infinite loop waiting to read a statement, evaluate it, and write the result
+  - read a list
+  - EVAL function
+  - display the result
+- Primitive functions:
+
+Expression vs. statements
+
+functional
+
+side-effects
